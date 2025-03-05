@@ -433,6 +433,14 @@ index 00000000000..c472647b3af
 +CONFIG_PACKAGE_luci-app-usb3disable=y
 +CONFIG_PACKAGE_kmod-fuse=y
 +CONFIG_PACKAGE_kmod-usb-core=y
++CONFIG_PACKAGE_kmod-usb-dwc2=y
++CONFIG_PACKAGE_kmod-usb-dwc3=y
++CONFIG_PACKAGE_kmod-usb-dwc3-qcom=y
++CONFIG_PACKAGE_kmod-usb-ehci=y
++CONFIG_PACKAGE_kmod-usb-ohci=y
++CONFIG_PACKAGE_kmod-usb-ohci-pci=y
++CONFIG_PACKAGE_kmod-usb-phy-msm=y
++CONFIG_PACKAGE_kmod-usb-printer=y
 +CONFIG_PACKAGE_kmod-usb-hid=y
 +CONFIG_PACKAGE_kmod-usb-net=y
 +CONFIG_PACKAGE_kmod-usb-net-cdc-ether=y
@@ -442,6 +450,8 @@ index 00000000000..c472647b3af
 +CONFIG_PACKAGE_kmod-usb-storage-extras=y
 +CONFIG_PACKAGE_kmod-usb-storage-uas=y
 +CONFIG_PACKAGE_kmod-usb2=y
++CONFIG_PACKAGE_kmod-usb2-pci=y
++CONFIG_PACKAGE_kmod-usb3=y
 +CONFIG_PACKAGE_usbutils=y
 diff --git a/package/boot/uboot-envtools/files/mediatek b/package/boot/uboot-envtools/files/mediatek
 index 7ec6698873d..49557cb9f10 100644
